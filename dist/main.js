@@ -154,11 +154,11 @@
       if (e.getVariable(n.hardMode)) return 90;
       switch (!0) {
         case t < 10:
-          return 20;
-        case t < 20:
+          return 15;
+        case t < 30:
           return 20;
         default:
-          return 80;
+          return 30;
       }
     };
     t.getSwingBlockVelocity = function (e, t) {
